@@ -5,13 +5,13 @@ import subprocess
 
 #Funciones para abrir las aplicaciones independientes
 def abrir_app_pacientes():
-    subprocess.Popen(["python", "manage_pacientes.py"])
+    subprocess.Popen(["python", "manejo_pacientes.py"])
 
 def abrir_app_medicos():
-    subprocess.Popen(["python", "manage_medicos.py"])
+    subprocess.Popen(["python", "manejo_medicos.py"])
 
 def abrir_app_turnos():
-    subprocess.Popen(["python", "manage_turnos.py"])
+    subprocess.Popen(["python", "manejo_turnos.py"])
     
 def abrir_busqueda_avanzada():
     subprocess.Popen(["python", "busqueda_avanzada.py"])

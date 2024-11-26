@@ -40,7 +40,7 @@ def busqueda_avanzada_paciente():
     ventana.title("Búsqueda avanzada de pacientes")
     ventana.geometry("400x300")
     
-    tk.Label(ventana, text="Buscar:").pack(pady=10)
+    tk.Label(ventana, text="Buscar por apellido:").pack(pady=10)
     busqueda_entry = tk.Entry(ventana)
     busqueda_entry.pack(pady=5)
     

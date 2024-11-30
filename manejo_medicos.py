@@ -183,7 +183,7 @@ def mostrar_medicos():
 root = tk.Tk()
 root.title("Gestión de Médicos")
 font = Font(family="Arial", size=12)
-root.geometry("800x600")
+root.geometry("600x400")
 
 #Crear botones
 ttk.Button(root, text="Registrar Médico", command=mostrar_registro_medico, style="Custom.TButton").grid(row=0, column=0, pady=10, padx=10, sticky="nsew")

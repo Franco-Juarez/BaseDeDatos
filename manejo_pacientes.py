@@ -204,7 +204,7 @@ def mostrar_pacientes():
 root = tk.Tk()
 root.title("Gestión de Pacientes")
 font = Font(family="Arial", size=12)
-root.geometry("800x600")
+root.geometry("600x400")
 
 #Establecer un estilo personalizado para los botones
 style = ttk.Style()
